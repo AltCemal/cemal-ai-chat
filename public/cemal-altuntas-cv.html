@@ -1,0 +1,318 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Cemal Altuntas - Software Engineering Student and Junior Full Stack Developer" />
+    <title>Cemal Altuntas | CV</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --ink: #17253d;
+        --muted: #5f6d82;
+        --accent: #1762c4;
+        --line: #d7e0eb;
+        --paper: #fff;
+        --wash: #f2f5f8;
+      }
+
+      * { box-sizing: border-box; }
+
+      body {
+        margin: 0;
+        background: var(--wash);
+        color: var(--ink);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 10pt;
+        line-height: 1.38;
+      }
+
+      .toolbar {
+        display: flex;
+        justify-content: flex-end;
+        max-width: 210mm;
+        margin: 16px auto 8px;
+      }
+
+      .print-button {
+        border: 0;
+        border-radius: 4px;
+        background: var(--ink);
+        color: white;
+        cursor: pointer;
+        font: inherit;
+        padding: 9px 14px;
+      }
+
+      .resume {
+        width: min(210mm, calc(100% - 32px));
+        min-height: 297mm;
+        margin: 0 auto 24px;
+        padding: 14mm 14mm 12mm;
+        background: var(--paper);
+        box-shadow: 0 8px 28px rgb(23 37 61 / 12%);
+      }
+
+      header {
+        border-bottom: 2px solid var(--ink);
+        padding-bottom: 12px;
+        margin-bottom: 14px;
+      }
+
+      h1 {
+        margin: 0;
+        font-size: 25pt;
+        line-height: 1.1;
+        font-weight: 800;
+      }
+
+      .headline {
+        margin: 5px 0 7px;
+        color: var(--accent);
+        font-size: 11pt;
+        font-weight: 700;
+      }
+
+      .contact {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 3px 10px;
+        color: var(--muted);
+        font-size: 8.5pt;
+      }
+
+      a { color: var(--accent); text-decoration: none; }
+
+      .columns {
+        display: grid;
+        grid-template-columns: 31% 1fr;
+        gap: 18px;
+      }
+
+      aside {
+        border-right: 1px solid var(--line);
+        padding-right: 14px;
+      }
+
+      section { margin: 0 0 13px; }
+
+      h2 {
+        margin: 0 0 7px;
+        padding-bottom: 4px;
+        border-bottom: 1px solid var(--line);
+        color: var(--ink);
+        font-size: 11pt;
+        line-height: 1.2;
+        text-transform: uppercase;
+      }
+
+      h3 {
+        margin: 8px 0 3px;
+        color: var(--accent);
+        font-size: 9.5pt;
+      }
+
+      p { margin: 0 0 5px; }
+
+      ul {
+        margin: 0 0 7px;
+        padding-left: 14px;
+      }
+
+      li { margin: 0 0 2px; }
+
+      .item { margin-bottom: 9px; }
+
+      .item-heading {
+        display: flex;
+        justify-content: space-between;
+        gap: 8px;
+        font-weight: 700;
+      }
+
+      .date {
+        flex: 0 0 auto;
+        color: var(--muted);
+        font-size: 8.5pt;
+        text-align: right;
+      }
+
+      .subheading {
+        margin: 1px 0 4px;
+        color: var(--muted);
+        font-size: 8.5pt;
+        font-style: italic;
+      }
+
+      .stack {
+        margin: 2px 0 4px;
+        color: var(--accent);
+        font-size: 8.5pt;
+        font-weight: 700;
+      }
+
+      .small { color: var(--muted); font-size: 8.5pt; }
+
+      @media (max-width: 650px) {
+        .resume { width: 100%; min-height: 0; padding: 24px 20px; }
+        .columns { grid-template-columns: 1fr; gap: 0; }
+        aside { border-right: 0; border-bottom: 1px solid var(--line); padding: 0; }
+        .item-heading { flex-wrap: wrap; }
+        .date { text-align: left; }
+      }
+
+      @page { size: A4; margin: 0; }
+
+      @media print {
+        body { background: white; font-size: 9pt; }
+        .toolbar { display: none; }
+        .resume {
+          width: 210mm;
+          min-height: 297mm;
+          margin: 0;
+          padding: 13mm 14mm 10mm;
+          box-shadow: none;
+        }
+        section { margin-bottom: 10px; }
+        .item { margin-bottom: 7px; }
+        a { color: inherit; }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="toolbar">
+      <button class="print-button" type="button" onclick="window.print()">Print / Save as PDF</button>
+    </div>
+
+    <main class="resume">
+      <header>
+        <h1>CEMAL ALTUNTAS</h1>
+        <p class="headline">SOFTWARE ENGINEERING STUDENT &amp; JUNIOR FULL STACK DEVELOPER</p>
+        <div class="contact">
+          <a href="mailto:cemalaltuntas9961@gmail.com">cemalaltuntas9961@gmail.com</a>
+          <span>+90 544 796 5561</span>
+          <span>Samsun, Turkey</span>
+          <a href="https://github.com/AltCemal">github.com/AltCemal</a>
+          <a href="https://www.linkedin.com/in/cemal-altuntas">linkedin.com/in/cemal-altuntas</a>
+        </div>
+      </header>
+
+      <div class="columns">
+        <aside>
+          <section>
+            <h2>Skills</h2>
+            <h3>Languages</h3>
+            <p>JavaScript, TypeScript, Java, Python, C#, SQL</p>
+            <h3>AI &amp; Machine Learning</h3>
+            <p>Machine Learning, Deep Learning, Neural Networks, Scikit-Learn</p>
+            <h3>Web Development</h3>
+            <p>React.js, Next.js, Redux, Context API, Node.js, Spring Boot, Tailwind CSS</p>
+            <h3>Databases</h3>
+            <p>PostgreSQL, MySQL, Supabase, Spring Data JPA</p>
+            <h3>Tools &amp; Practices</h3>
+            <p>Git/GitHub, RESTful APIs, Agile/Scrum, Spring Security, Postman</p>
+          </section>
+
+          <section>
+            <h2>Languages</h2>
+            <p><strong>Turkish</strong><br /><span class="small">Native</span></p>
+            <p><strong>English</strong><br /><span class="small">B2 - Upper Intermediate</span></p>
+          </section>
+
+          <section>
+            <h2>Interests</h2>
+            <p>Automobiles &amp; Restomod</p>
+            <p>Sim Racing</p>
+            <p>Strategy Games &amp; Chess</p>
+            <p>Software Development</p>
+          </section>
+        </aside>
+
+        <div>
+          <section>
+            <h2>Professional Summary</h2>
+            <p>Fourth-year Software Engineering student with a strong theoretical foundation and hands-on full-stack development experience. Completed an intensive 960-hour Full Stack Developer program at Workintech and an Artificial Intelligence training program covering Machine Learning and Deep Learning. Experienced in production debugging, code optimization, Agile workflows, and translating business needs into digital solutions.</p>
+          </section>
+
+          <section>
+            <h2>Work Experience</h2>
+            <article class="item">
+              <div class="item-heading">
+                <span>Software Engineering Intern</span>
+                <span class="date">Aug 2025 - Oct 2025</span>
+              </div>
+              <p class="subheading">Katot Bilgi Teknolojileri A.S. | Samsun, Turkey</p>
+              <ul>
+                <li>Voluntarily extended the internship beyond the mandatory 20 days following positive performance feedback.</li>
+                <li>Contributed to production full-stack projects through debugging, code optimization, and seamless feature integration.</li>
+                <li>Participated in Agile/Scrum stand-ups and code reviews to support collaboration and maintain clean code standards.</li>
+              </ul>
+            </article>
+            <article class="item">
+              <div class="item-heading">
+                <span>Co-Founder / Commercial Manager</span>
+                <span class="date">Apr 2024 - Present</span>
+              </div>
+              <p class="subheading">Automotive Dealership &amp; Logistics | Samsun, Turkey</p>
+              <ul>
+                <li>Manage end-to-end commercial operations, vehicle sourcing, freight logistics, and high-value customer negotiations.</li>
+                <li>Translate operational requirements into digital automation concepts, combining business knowledge with technical problem-solving.</li>
+              </ul>
+            </article>
+          </section>
+
+          <section>
+            <h2>Projects</h2>
+            <article class="item">
+              <div class="item-heading">
+                <span>Altuntas Logistics Platform <span class="small">(altuntaslojistik.com)</span></span>
+                <span class="date">2026</span>
+              </div>
+              <p class="stack">Next.js, React, TypeScript, Tailwind CSS, Vercel</p>
+              <ul>
+                <li>Designed and engineered a production-ready corporate web platform to modernize logistics operations and customer workflows.</li>
+                <li>Optimized performance and SEO with a responsive, mobile-first UI.</li>
+              </ul>
+            </article>
+            <article class="item">
+              <div class="item-heading">
+                <span>Alts Garage Platform <span class="small">(altsgaraj.com)</span></span>
+                <span class="date">2026</span>
+              </div>
+              <p class="stack">Next.js, TypeScript, Supabase, PostgreSQL, Tailwind CSS</p>
+              <ul>
+                <li>Developed an end-to-end web platform for automotive modification and restomod showcases.</li>
+                <li>Integrated Supabase for backend services, real-time vehicle data, and secure cloud database storage.</li>
+              </ul>
+            </article>
+          </section>
+
+          <section>
+            <h2>Education &amp; Certifications</h2>
+            <article class="item">
+              <div class="item-heading">
+                <span>Bachelor of Software Engineering</span>
+                <span class="date">2022 - 2027 (Expected)</span>
+              </div>
+              <p class="subheading">University of Turkish Aeronautical Association | Ankara, Turkey | Fourth Year / Senior</p>
+            </article>
+            <article class="item">
+              <div class="item-heading">
+                <span>Artificial Intelligence Training Program (ML &amp; DL)</span>
+                <span class="date">Completed Jul 2026</span>
+              </div>
+              <p class="subheading">Turkish Aeronautical Association | Certificate</p>
+            </article>
+            <article class="item">
+              <div class="item-heading">
+                <span>Full Stack Developer Program (960 Hours)</span>
+                <span class="date">2026</span>
+              </div>
+              <p class="subheading">Workintech | Professional Certificate</p>
+            </article>
+          </section>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

@@ -16,11 +16,13 @@ KESİN VE DEĞİŞTİRİLEMEZ PROTOKOLLER:
 
 BENİM (CEMAL ALTUNTAŞ) PROFESYONEL VE KİŞİSEL BİLGİLERİM:
 - Kimlik & Yaş: Ben Cemal Altuntaş. 24 yaşındayım. 1.79 boyunda ve 100 kiloyum.
-- Eğitim: Türk Hava Kurumu Üniversitesi Yazılım Mühendisliği 3. sınıfı yeni tamamladım, 4. sınıf öğrencisiyim (Okula giriş yılım: 2022, Mezuniyet: 2027). Hazırlık sınıfı okudum.
+- Eğitim: Türk Hava Kurumu Üniversitesi Yazılım Mühendisliği 4. sınıf öğrencisiyim (Okula giriş yılım: 2022, beklenen mezuniyet: 2027). Hazırlık sınıfı okudum.
 - Yoğunlaştırılmış Eğitim: Workintech bünyesinde 6 ay süren, 960 saatlik endüstri standardında, pratik odaklı Full Stack Developer programından profesyonel sertifika ile mezun oldum.
+- Yapay Zeka Sertifikası: Türk Hava Kurumu (Turkish Aeronautical Association) tarafından verilen Artificial Intelligence Training Program (ML & DL) sertifikasını Temmuz 2026'da tamamladım. Eğitim kapsamında Machine Learning, Deep Learning, Neural Networks ve Scikit-Learn konularında eğitim aldım.
 - Teknik Yetkinlik Havuzum:
   * Backend: Java, Spring Boot, Spring Data JPA, Spring Security, Node.js, RESTful APIs, PostgreSQL, MySQL, Supabase.
   * Frontend: JavaScript, TypeScript, React.js, Next.js, Redux, Context API, Hooks, Tailwind CSS, HTML/CSS.
+  * Yapay Zeka & Makine Öğrenmesi: Machine Learning (ML), Deep Learning (DL), Neural Networks, Scikit-Learn.
   * Mimari & Metodoloji: Agile/Scrum iş akışları, Git/GitHub versiyon kontrolü, kod optimizasyonu ve profesyonel hata ayıklama (debugging).
   * Diğer / Mobil: Python, C#, Unity 3D.
 
